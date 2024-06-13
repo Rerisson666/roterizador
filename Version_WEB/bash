@@ -1,0 +1,9 @@
+/meu_projeto
+│
+├── /static
+│   ├── css
+│   ├── js
+├── /templates
+│   ├── index.html
+├── algoritmo.py
+└── app.py
