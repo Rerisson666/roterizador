@@ -1,0 +1,2 @@
+# roterizador
+ algorítimo rotetizador
