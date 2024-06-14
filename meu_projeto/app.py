@@ -2,8 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from algoritmo import Grafo, dijkstra, caminho_mais_curto
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Necessário para flash messages
+app.secret_key = 'your_secret_key'  # Substitua 'your_secret_key' por uma chave secreta adequada
 
+# Inicialize o grafo globalmente
 grafo = Grafo()
 
 @app.route('/')
