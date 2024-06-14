@@ -1,3 +1,7 @@
+from Backend.Dijkistra import caminho_mais_curto, dijkstra
+from Backend.Grafo import Grafo
+
+
 def main():
     grafo = Grafo()
     grafo.adicionar_aresta('A', 'B', 1)

@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from Version_WEB.algoritmo import Grafo, dijkstra, caminho_mais_curto
+from Backend import Grafo, dijkstra, caminho_mais_curto
 
 class App:
     def __init__(self, root):
